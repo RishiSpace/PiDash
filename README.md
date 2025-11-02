@@ -2,5 +2,6 @@
 A Simple Dashboard for Raspberry Pi 
 
 
-## One-Command deploy
-```docker run -d -p 2700:8080 --name my-homepage --restart unless-stopped raspberry-pi-homepage```
+## Deploy Instructions
+```docker built -t PiDash```
+```docker run -d -p 2700:8080 --name PiDash --restart unless-stopped PiDash```
